@@ -1,0 +1,7 @@
+<launch>
+  <arg name="param_file" default="$(find-pkg-share task_planner)/config/charge_scheduler.param.yaml"/>
+
+  <node pkg="task_planner" exec="charge_scheduler" name="charge_scheduler" output="screen">
+    <param from="$(var param_file)"/>
+  </node>
+</launch>

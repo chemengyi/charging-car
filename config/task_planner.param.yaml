@@ -1,0 +1,37 @@
+/**:
+  ros__parameters:
+    # ══════════ 基础行为参数 ══════════
+    park_side: 0                      # 停车侧: 0=目标车后方, 1=前方
+    switch_distance_threshold: 0.5    # EM→A*切换距离阈值(m)
+    em_distance: 10.0                 # EM目标点距目标车距离(m)
+    astar_distance: 6.0               # A*停车点距目标车距离(m)
+    timeout_move_threshold: 0.3       # 超时判定移动阈值(m)
+
+    # ══════════ 返程参数 ══════════
+    return_astar_pullout_dist: 4.0    # 返程起步A*驶离距离(m)
+    return_em_offset: 4.0             # 返程EM目标偏移(m)
+
+    # ══════════ 虚线捷径决策参数 ══════════
+    uturn_shift: 8.0                  # 掉头横移估计距离(m), 用于路径长度比较
+    uturn_lane_tol: 0.5               # 判断车是否在可掉头车道的容差(m)
+
+    # ══════════ 中心线合并参数 ══════════
+    merge_dist: 3.0                   # 中心线合并: 端点距离阈值(m)
+    merge_cos: 0.5                    # 中心线合并: 方向余弦阈值(cos60°=0.5)
+    max_em_dist: 1000.0               # EM分段最大距离(m), 超过则分段
+    half_lane_width: 2.0              # 半车道宽(m)
+    parking_margin: 0.5               # parking余量(m)
+
+    # ══════════ A*停车目标参数 ══════════
+    astar_forward_dist: 4.0           # A*停车前进距离(m)
+    astar_left_offset: 1.0            # A*停车左偏距离(m)
+    astar_obstacle_extra: 6.0         # A*目标在障碍物区时额外前进(m)
+
+    # ══════════ ParkingLot 尺寸参数 ══════════
+    plot_astar_front: 13.0            # A*停车parking_lot前方长度(m)
+    plot_lanechange_front: 7.0        # 变道parking_lot前方长度(m)
+    plot_lanechange_rear: 1.0         # 变道parking_lot后方长度(m)
+    plot_uturn_front: 8.0             # 掉头parking_lot前方长度(m)
+    plot_uturn_rear: 8.0              # 掉头parking_lot后方长度(m)
+    plot_uturn_wleft_margin: 3.0      # 掉头parking_lot左侧余量(m)
+    plot_uturn_wright: 2.0            # 掉头parking_lot右侧宽度(m)

@@ -1,0 +1,43 @@
+/**:
+  ros__parameters:
+    # ── 驿站位置 ──
+    charging_station:
+      x: 0.0
+      y: 0.0
+
+    # ══════════ 能量感知调度模型 (一整块电池, kWh) ══════════
+    battery_capacity_kwh: 31.3        # 充电车总电池容量(充电+行驶一体)
+    charge_power_kw: 100.0            # 给目标车充电功率
+    charge_efficiency: 0.97           # 充电效率
+    drive_consume_kwh_per_km: 0.6     # 充电车自身行驶耗电
+    station_charge_power_kw: 120.0    # 充电桩给充电车充电功率
+    soc_low_threshold: 0.20           # 20% 阈值(低于则返程)
+    soc_depart_threshold: 0.80        # 80% 后续趟出发电量/返程充到
+    target_charge_target: 0.80        # 目标车充到 80%
+
+    # ── 换车加权评分权重(距离权重最高, 论文优化点) ──
+    weight_distance: 3.0              # 距离近权重(最高)
+    weight_battery: 1.0               # 电量低权重
+    weight_demand: 1.0                # 充电需求小权重
+
+    # ── 时间参数 ──
+    avg_speed: 66.7                   # v: 平均速度(m/min), 4km/h≈66.7
+    alpha: 2.0                        # τ_i = α·b_i (时间窗系数, min/%)
+
+    # ── 兼容旧参数(不再主导, 保留避免报错) ──
+    charge_per_vehicle: 30.0
+    charge_battery_capacity: 100.0
+    drive_battery_range: 2000.0
+    drive_consume_per_meter: 0.05
+    drive_battery_recharge_time: 60.0
+    charge_time_per_vehicle: 30.0
+
+    # ══════════ 目标车列表 (10辆) ══════════
+    # 容量必须和类型匹配: 24V/30Ah=0.72, 48V/30Ah=1.44, 48V/100Ah=4.80,
+    #   72V/100Ah=7.20, 72V/200Ah=14.40, 48V/60Ah=2.88, 51.2V/100Ah=5.12,
+    #   36V/60Ah=2.16, 72V/50Ah=3.60, 96V/200Ah=19.20
+    target_x:            [-70.97, -47.27, -44.02, -53.02, -22.92, -60.00, -35.00, -50.00, -65.00, -40.00]
+    target_y:            [-18.98,  -2.62, -64.07,  -3.54,   2.30, -30.00, -20.00, -45.00, -50.00, -10.00]
+    target_battery:      [  35.0,   20.0,   50.0,   10.0,   60.0,   25.0,   40.0,   15.0,   55.0,   30.0]  # 剩余电量%
+    target_capacity_kwh: [  0.72,   1.44,   4.80,   7.20,  14.40,   2.88,   5.12,   2.16,   3.60,  19.20]  # 容量kWh
+    target_type:         ["24V_30Ah", "48V_30Ah", "48V_100Ah", "72V_100Ah", "72V_200Ah", "48V_60Ah", "51.2V_100Ah", "36V_60Ah", "72V_50Ah", "96V_200Ah"]
