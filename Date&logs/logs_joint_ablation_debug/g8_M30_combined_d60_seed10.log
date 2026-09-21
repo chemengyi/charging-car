@@ -1,0 +1,158 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-07-29-09-17-31-238368-YYYY-16965
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [charge_scheduler-1]: process started with pid [16968]
+[charge_scheduler-1] [INFO] [1785316651.390703636] [charge_scheduler]: [Scheduler] 30辆车 | 电池800.0kWh(20%=160.0 80%=640.0) | 充电360kW效率97% | 行驶0.6kWh/km | 桩350kW
+[charge_scheduler-1] [INFO] [1785316651.390896468] [charge_scheduler]: [Scheduler] 站端周转: 换电 10 min(换后满电) | 单趟可用 640 kWh
+[charge_scheduler-1] [INFO] [1785316651.390928989] [charge_scheduler]:   车#0 [电动装载机282|light] 位置(-47.3,-2.6) 容量282kWh 剩余35% | α=6→6min/% τ=168min → 需130.8kWh(充21.2min)
+[charge_scheduler-1] [INFO] [1785316651.390955293] [charge_scheduler]:   车#1 [重型叉车|light] 位置(-44.0,-64.1) 容量200kWh 剩余20% | α=6→6min/% τ=96min → 需123.7kWh(充20.0min)
+[charge_scheduler-1] [INFO] [1785316651.390977449] [charge_scheduler]:   车#2 [电动装载机350|light] 位置(-51.1,-38.8) 容量350kWh 剩余50% | α=6→6min/% τ=288min → 需108.2kWh(充17.5min)
+[charge_scheduler-1] [INFO] [1785316651.390997867] [charge_scheduler]:   车#3 [重型叉车|light] 位置(-71.0,-19.0) 容量200kWh 剩余10% | α=6→6min/% τ=32min → 需144.3kWh(充23.3min)
+[charge_scheduler-1] [INFO] [1785316651.391018574] [charge_scheduler]:   车#4 [电动装载机282|heavy→降级] 位置(-93.3,6.6) 容量282kWh 剩余60% | α=3→6min/% τ=212min → 需58.1kWh(充9.4min)
+[charge_scheduler-1] [INFO] [1785316651.391038427] [charge_scheduler]:   车#5 [电动装载机350|light] 位置(-104.4,47.7) 容量350kWh 剩余25% | α=6→6min/% τ=128min → 需198.5kWh(充32.1min)
+[charge_scheduler-1] [INFO] [1785316651.391058507] [charge_scheduler]:   车#6 [电动装载机350|heavy→降级] 位置(-37.0,-75.1) 容量350kWh 剩余40% | α=4→6min/% τ=176min → 需144.3kWh(充23.3min)
+[charge_scheduler-1] [INFO] [1785316651.391077495] [charge_scheduler]:   车#7 [重型叉车|light] 位置(-88.8,-37.1) 容量200kWh 剩余15% | α=6→6min/% τ=64min → 需134.0kWh(充21.7min)
+[charge_scheduler-1] [INFO] [1785316651.391097018] [charge_scheduler]:   车#8 [电动装载机282|heavy→降级] 位置(-70.9,27.7) 容量282kWh 剩余55% | α=3→6min/% τ=196min → 需72.7kWh(充11.8min)
+[charge_scheduler-1] [INFO] [1785316651.391117492] [charge_scheduler]:   车#9 [电动装载机282|heavy→降级] 位置(-35.4,-47.4) 容量282kWh 剩余30% | α=3→6min/% τ=116min → 需145.4kWh(充23.5min)
+[charge_scheduler-1] [INFO] [1785316651.391137277] [charge_scheduler]:   车#10 [电动装载机282|light] 位置(-100.0,-1.0) 容量282kWh 剩余45% | α=6→6min/% τ=224min → 需101.8kWh(充16.4min)
+[charge_scheduler-1] [INFO] [1785316651.391157362] [charge_scheduler]:   车#11 [电动装载机350|light] 位置(-72.8,-15.6) 容量350kWh 剩余18% | α=6→6min/% τ=83min → 需223.7kWh(充36.2min)
+[charge_scheduler-1] [INFO] [1785316651.391178969] [charge_scheduler]:   车#12 [重型叉车|heavy→降级] 位置(-61.7,-20.7) 容量200kWh 剩余62% | α=3→6min/% τ=230min → 需37.1kWh(充6.0min)
+[charge_scheduler-1] [INFO] [1785316651.391198521] [charge_scheduler]:   车#13 [电动装载机282|light] 位置(-133.0,-25.3) 容量282kWh 剩余28% | α=6→6min/% τ=129min → 需151.2kWh(充24.4min)
+[charge_scheduler-1] [INFO] [1785316651.391217900] [charge_scheduler]:   车#14 [电动装载机350|light] 位置(-132.0,-8.9) 容量350kWh 剩余52% | α=6→6min/% τ=301min → 需101.0kWh(充16.3min)
+[charge_scheduler-1] [INFO] [1785316651.391237475] [charge_scheduler]:   车#15 [重型叉车|light] 位置(-120.0,7.9) 容量200kWh 剩余12% | α=6→6min/% τ=45min → 需140.2kWh(充22.7min)
+[charge_scheduler-1] [INFO] [1785316651.391269711] [charge_scheduler]:   车#16 [电动装载机282|light] 位置(-43.8,-82.9) 容量282kWh 剩余38% | α=6→6min/% τ=185min → 需122.1kWh(充19.7min)
+[charge_scheduler-1] [INFO] [1785316651.391289666] [charge_scheduler]:   车#17 [电动装载机350|light] 位置(-31.1,-74.7) 容量350kWh 剩余58% | α=6→6min/% τ=339min → 需79.4kWh(充12.8min)
+[charge_scheduler-1] [INFO] [1785316651.391309822] [charge_scheduler]:   车#18 [重型叉车|heavy→降级] 位置(-75.4,-68.2) 容量200kWh 剩余22% | α=3→6min/% τ=102min → 需119.6kWh(充19.3min)
+[charge_scheduler-1] [INFO] [1785316651.391331905] [charge_scheduler]:   车#19 [电动装载机282|light] 位置(-88.2,47.1) 容量282kWh 剩余48% | α=6→6min/% τ=241min → 需93.0kWh(充15.0min)
+[charge_scheduler-1] [INFO] [1785316651.391352327] [charge_scheduler]:   车#20 [电动装载机350|light] 位置(-71.4,16.3) 容量350kWh 剩余33% | α=6→6min/% τ=179min → 需169.6kWh(充27.4min)
+[charge_scheduler-1] [INFO] [1785316651.391428743] [charge_scheduler]:   车#21 [重型叉车|heavy→降级] 位置(-122.0,-0.6) 容量200kWh 剩余65% | α=3→6min/% τ=240min → 需30.9kWh(充5.0min)
+[charge_scheduler-1] [INFO] [1785316651.391454875] [charge_scheduler]:   车#22 [电动装载机282|light] 位置(-71.6,11.6) 容量282kWh 剩余16% | α=6→6min/% τ=62min → 需186.1kWh(充30.1min)
+[charge_scheduler-1] [INFO] [1785316651.391475474] [charge_scheduler]:   车#23 [电动装载机350|light] 位置(-131.0,37.2) 容量350kWh 剩余42% | α=6→6min/% τ=237min → 需137.1kWh(充22.2min)
+[charge_scheduler-1] [INFO] [1785316651.391495866] [charge_scheduler]:   车#24 [重型叉车|heavy→降级] 位置(-51.3,5.9) 容量200kWh 剩余25% | α=3→6min/% τ=112min → 需113.4kWh(充18.3min)
+[charge_scheduler-1] [INFO] [1785316651.391515284] [charge_scheduler]:   车#25 [电动装载机282|light] 位置(-62.2,-10.7) 容量282kWh 剩余55% | α=6→6min/% τ=280min → 需72.7kWh(充11.8min)
+[charge_scheduler-1] [INFO] [1785316651.391535056] [charge_scheduler]:   车#26 [电动装载机350|light] 位置(-116.0,60.4) 容量350kWh 剩余30% | α=6→6min/% τ=160min → 需180.4kWh(充29.2min)
+[charge_scheduler-1] [INFO] [1785316651.391554253] [charge_scheduler]:   车#27 [重型叉车|heavy→降级] 位置(-90.4,60.5) 容量200kWh 剩余68% | α=3→6min/% τ=250min → 需24.7kWh(充4.0min)
+[charge_scheduler-1] [INFO] [1785316651.391573402] [charge_scheduler]:   车#28 [电动装载机282|light] 位置(-85.5,-46.0) 容量282kWh 剩余20% | α=6→6min/% τ=84min → 需174.4kWh(充28.2min)
+[charge_scheduler-1] [INFO] [1785316651.391592452] [charge_scheduler]:   车#29 [电动装载机350|light] 位置(-87.0,-36.6) 容量350kWh 剩余36% | α=6→6min/% τ=198min → 需158.8kWh(充25.7min)
+[charge_scheduler-1] [INFO] [1785316651.402780227] [charge_scheduler]: [Scheduler] 闭环接口: threshold=10.0min | event_sim=on | policy=fixed | structured_feedback=optional (/task_planner/execution_event)
+[charge_scheduler-1] [INFO] [1785316651.402822890] [charge_scheduler]: [Scheduler] 已启动, 等待地图...
+[charge_scheduler-1] [INFO] [1785316651.448956260] [charge_scheduler]: [Scheduler] RoutingGraph 就绪
+[charge_scheduler-1] [INFO] [1785316651.449342950] [charge_scheduler]: [Scheduler] 提取到 6 条虚线捷径
+[charge_scheduler-1] [INFO] [1785316651.464868372] [charge_scheduler]: [Scheduler] 下层兼容增强图: 166 节点, 6 条虚线掉头边
+[charge_scheduler-1] [INFO] [1785316659.658256150] [charge_scheduler]: [Scheduler] 距离矩阵完成 31x31, 8193.3 ms | 模式=maneuver | 真实不可达=0 抽象不可达=0 | 缺少对向投影节点=0
+[charge_scheduler-1] [INFO] [1785316659.658355384] [charge_scheduler]:   ✓ 比值自检：930 个 OD 满足 机动/直线≥1 | 均值=2.97 最大=42.81 (车#15→车#21)
+[charge_scheduler-1] [INFO] [1785316659.658369902] [charge_scheduler]: [Scheduler] 地图就绪, 166 条 lanelet（与下层一致）
+[charge_scheduler-1] [INFO] [1785316659.658461719] [charge_scheduler]: ======== 开始VRPTW调度 30 辆车 ========
+[charge_scheduler-1] [INFO] [1785316659.658469717] [charge_scheduler]:   规模30>8 → 启发式(alns)
+[charge_scheduler-1] [INFO] [1785316715.999638020] [charge_scheduler]: [ALNS] seed=10 iters=15000 | N_late=3(成功率90.0%) T_overtime=165.0min C_total=5785.5m | 趟数=11 makespan=374.5min
+[charge_scheduler-1] [INFO] [1785316715.999732322] [charge_scheduler]:   求解耗时 56341.3 ms
+[charge_scheduler-1] [INFO] [1785316715.999744482] [charge_scheduler]: ════════ 调度结果 ════════
+[charge_scheduler-1] [INFO] [1785316715.999750489] [charge_scheduler]:   ★目标(字典序): ① N_late=3 辆 (按时成功率 27/30 = 90.0%)  ② T_overtime=165.0min  ③ C_total=5785.5m
+[charge_scheduler-1] [INFO] [1785316715.999758361] [charge_scheduler]:   附: 趟数=11 | makespan=374.5min | 能量可行=是
+[charge_scheduler-1] [INFO] [1785316715.999777427] [charge_scheduler]:   [充电车1] 趟1: 站 → 车#27(到2.1/限249.6✓) → 车#21(到8.2/限240.0✓) → 车#3(到15.1/限32.0✓) → 车#7(到39.9/限64.0✓) → 车#28(到63.9/限84.0✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999785595] [charge_scheduler]:   [充电车2] 趟2: 站 → 车#9(到2.2/限116.0✓) → 车#12(到27.0/限230.4✓) → 车#15(到37.0/限44.8✓) → 车#11(到64.5/限83.2✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999793624] [charge_scheduler]:   [充电车3] 趟3: 站 → 车#4(到1.4/限212.0✓) → 车#8(到13.7/限196.0✓) → 车#22(到27.8/限61.6✓) → 车#18(到61.6/限102.4✓) → 车#1(到85.6/限96.0✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999832563] [charge_scheduler]:   [充电车2] 趟4: 站 → 车#5(到122.3/限128.0✓) → 车#20(到166.6/限179.2✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999840190] [charge_scheduler]:   [充电车1] 趟5: 站 → 车#24(到110.3/限112.0✓) → 车#26(到137.1/限160.0✓) → 车#16(到182.4/限184.8✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999846920] [charge_scheduler]:   [充电车3] 趟6: 站 → 车#13(到125.3/限128.8✓) → 车#0(到163.4/限168.0✓) → 车#10(到201.9/限224.0✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999853054] [charge_scheduler]:   [充电车2] 趟7: 站 → 车#19(到224.0/限240.8✓) → 车#29(到259.9/限198.4✗超时) → 站
+[charge_scheduler-1] [INFO] [1785316715.999858873] [charge_scheduler]:   [充电车1] 趟8: 站 → 车#23(到232.7/限236.8✓) → 车#25(到279.5/限280.0✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999864013] [charge_scheduler]:   [充电车1] 趟9: 站 → 车#17(到328.9/限339.2✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999870045] [charge_scheduler]:   [充电车2] 趟10: 站 → 车#2(到317.8/限288.0✗超时) → 站
+[charge_scheduler-1] [INFO] [1785316715.999878566] [charge_scheduler]:   [充电车3] 趟11: 站 → 车#6(到249.8/限176.0✗超时) → 车#14(到296.0/限300.8✓) → 站
+[charge_scheduler-1] [INFO] [1785316715.999883055] [charge_scheduler]: ════════════════════════
+[charge_scheduler-1] [INFO] [1785316715.999955402] [charge_scheduler]: [扰动清单] type=combined delay=60.0min targets={13,22,} station={C1-S1,C2-S1,}
+[charge_scheduler-1] [INFO] [1785316715.999977061] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=27 station_ord=0 planned_finish=6.36 actual_finish=6.36 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316715.999986620] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=4 station_ord=0 planned_finish=11.04 actual_finish=11.04 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316715.999995099] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=21 station_ord=0 planned_finish=14.00 actual_finish=14.00 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000003303] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=9 station_ord=0 planned_finish=25.99 actual_finish=25.99 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000011094] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=8 station_ord=0 planned_finish=27.46 actual_finish=27.46 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000018945] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=12 station_ord=0 planned_finish=35.76 actual_finish=35.76 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000028015] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=3 station_ord=0 planned_finish=39.26 actual_finish=39.26 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000037018] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=15 station_ord=0 planned_finish=61.62 actual_finish=61.62 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000045315] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=7 station_ord=0 planned_finish=63.68 actual_finish=63.68 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000052159] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=28 station_ord=0 planned_finish=97.49 actual_finish=97.49 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000060078] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=11 station_ord=0 planned_finish=106.60 actual_finish=106.60 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000067911] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=22 station_ord=0 planned_finish=60.21 actual_finish=120.21 dev=+60.00 injected=60.0
+[charge_scheduler-1] [INFO] [1785316716.000075764] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=18 station_ord=0 planned_finish=84.42 actual_finish=146.55 dev=+62.13 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000083349] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=station_turnaround target=-1 station_ord=1 planned_finish=109.52 actual_finish=169.52 dev=+60.00 injected=60.0
+[charge_scheduler-1] [INFO] [1785316716.000095165] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=1 station_ord=0 planned_finish=110.04 actual_finish=172.71 dev=+62.67 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000102672] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=station_turnaround target=-1 station_ord=1 planned_finish=119.08 actual_finish=179.08 dev=+60.00 injected=60.0
+[charge_scheduler-1] [INFO] [1785316716.000110138] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=station_turnaround target=-1 station_ord=1 planned_finish=122.47 actual_finish=185.14 dev=+62.67 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000118188] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=24 station_ord=0 planned_finish=135.26 actual_finish=195.34 dev=+60.09 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000125585] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=5 station_ord=0 planned_finish=165.49 actual_finish=226.01 dev=+60.52 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000132994] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=26 station_ord=0 planned_finish=178.71 actual_finish=240.89 dev=+62.18 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000140365] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=20 station_ord=0 planned_finish=209.23 actual_finish=270.89 dev=+61.67 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000148268] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=16 station_ord=0 planned_finish=217.46 actual_finish=279.84 dev=+62.38 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000155476] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=station_turnaround target=-1 station_ord=2 planned_finish=220.62 actual_finish=282.29 dev=+61.67 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000162773] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=13 station_ord=0 planned_finish=160.22 actual_finish=283.18 dev=+122.97 injected=60.0
+[charge_scheduler-1] [INFO] [1785316716.000170121] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=station_turnaround target=-1 station_ord=2 planned_finish=230.18 actual_finish=292.56 dev=+62.38 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000177249] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=19 station_ord=0 planned_finish=257.88 actual_finish=320.95 dev=+63.08 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000187580] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=0 station_ord=0 planned_finish=198.30 actual_finish=321.65 dev=+123.35 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000194985] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=23 station_ord=0 planned_finish=276.09 actual_finish=338.84 dev=+62.75 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000202088] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=10 station_ord=0 planned_finish=235.29 actual_finish=360.49 dev=+125.21 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000209437] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=29 station_ord=0 planned_finish=303.61 actual_finish=366.69 dev=+63.08 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000216442] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=station_turnaround target=-1 station_ord=2 planned_finish=246.94 actual_finish=372.15 dev=+125.21 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000223742] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=25 station_ord=0 planned_finish=314.75 actual_finish=377.54 dev=+62.79 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000231145] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=station_turnaround target=-1 station_ord=3 planned_finish=315.79 actual_finish=378.87 dev=+63.08 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000238316] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=station_turnaround target=-1 station_ord=3 planned_finish=326.02 actual_finish=388.81 dev=+62.79 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000253944] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=6 station_ord=0 planned_finish=293.50 actual_finish=418.71 dev=+125.21 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000261798] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=target_service target=2 station_ord=0 planned_finish=361.58 actual_finish=424.66 dev=+63.08 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000271765] [charge_scheduler]: [执行事件] loop=open plan_v=0 C2 type=final_return target=-1 station_ord=0 planned_finish=363.51 actual_finish=426.59 dev=+63.08 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000278964] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=target_service target=17 station_ord=0 planned_finish=371.74 actual_finish=435.47 dev=+63.73 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000286116] [charge_scheduler]: [执行事件] loop=open plan_v=0 C1 type=final_return target=-1 station_ord=0 planned_finish=374.53 actual_finish=438.26 dev=+63.73 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000292802] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=target_service target=14 station_ord=0 planned_finish=339.29 actual_finish=464.94 dev=+125.64 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000299929] [charge_scheduler]: [执行事件] loop=open plan_v=0 C3 type=final_return target=-1 station_ord=0 planned_finish=343.06 actual_finish=468.70 dev=+125.64 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000319805] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C1 type=target_service target=27 station_ord=0 planned_finish=6.36 actual_finish=6.36 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000327629] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C3 type=target_service target=4 station_ord=0 planned_finish=11.04 actual_finish=11.04 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000337713] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C1 type=target_service target=21 station_ord=0 planned_finish=14.00 actual_finish=14.00 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000346782] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C2 type=target_service target=9 station_ord=0 planned_finish=25.99 actual_finish=25.99 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000354670] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C3 type=target_service target=8 station_ord=0 planned_finish=27.46 actual_finish=27.46 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000362619] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C2 type=target_service target=12 station_ord=0 planned_finish=35.76 actual_finish=35.76 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000372233] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C1 type=target_service target=3 station_ord=0 planned_finish=39.26 actual_finish=39.26 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000380062] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C2 type=target_service target=15 station_ord=0 planned_finish=61.62 actual_finish=61.62 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000387702] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C1 type=target_service target=7 station_ord=0 planned_finish=63.68 actual_finish=63.68 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000395307] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C1 type=target_service target=28 station_ord=0 planned_finish=97.49 actual_finish=97.49 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000403198] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C2 type=target_service target=11 station_ord=0 planned_finish=106.60 actual_finish=106.60 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.000411817] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C3 type=target_service target=22 station_ord=0 planned_finish=60.21 actual_finish=120.21 dev=+60.00 injected=60.0
+[charge_scheduler-1] [WARN] [1785316716.908737847] [charge_scheduler]: [重调度事件] policy=fixed #1 t=120.21min trigger=C3/target_service dev=+60.00 pool=18 committed=0 plan_v=1 solve_ms=908.2 changed_assign=0 changed_order=17
+[charge_scheduler-1] [INFO] [1785316716.908794021] [charge_scheduler]: [执行事件] loop=fixed plan_v=1 C3 type=target_service target=1 station_ord=0 planned_finish=146.73 actual_finish=146.73 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.908838605] [charge_scheduler]: [执行事件] loop=fixed plan_v=1 C3 type=station_turnaround target=-1 station_ord=1 planned_finish=159.16 actual_finish=159.16 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316716.908846617] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C1 type=station_turnaround target=-1 station_ord=1 planned_finish=109.52 actual_finish=169.52 dev=+60.00 injected=60.0
+[charge_scheduler-1] [WARN] [1785316717.677220283] [charge_scheduler]: [重调度事件] policy=fixed #2 t=169.52min trigger=C1/station_turnaround dev=+60.00 pool=16 committed=1 plan_v=2 solve_ms=768.3 changed_assign=0 changed_order=15
+[charge_scheduler-1] [INFO] [1785316717.677277100] [charge_scheduler]: [执行事件] loop=fixed plan_v=0 C2 type=station_turnaround target=-1 station_ord=1 planned_finish=119.08 actual_finish=179.08 dev=+60.00 injected=60.0
+[charge_scheduler-1] [WARN] [1785316718.383023424] [charge_scheduler]: [重调度事件] policy=fixed #3 t=179.08min trigger=C2/station_turnaround dev=+60.00 pool=15 committed=2 plan_v=3 solve_ms=705.7 changed_assign=0 changed_order=8
+[charge_scheduler-1] [INFO] [1785316718.383080329] [charge_scheduler]: [执行事件] loop=fixed plan_v=1 C3 type=target_service target=0 station_ord=0 planned_finish=194.56 actual_finish=194.56 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383091285] [charge_scheduler]: [执行事件] loop=fixed plan_v=2 C1 type=target_service target=16 station_ord=0 planned_finish=206.29 actual_finish=206.29 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383098254] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C3 type=target_service target=18 station_ord=0 planned_finish=221.15 actual_finish=221.15 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383109483] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C2 type=target_service target=5 station_ord=0 planned_finish=226.01 actual_finish=226.01 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383116224] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C1 type=target_service target=24 station_ord=0 planned_finish=233.27 actual_finish=233.27 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383122846] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C2 type=target_service target=19 station_ord=0 planned_finish=260.41 actual_finish=260.41 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383130158] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C2 type=station_turnaround target=-1 station_ord=2 planned_finish=272.61 actual_finish=272.61 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383136963] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C1 type=target_service target=26 station_ord=0 planned_finish=278.82 actual_finish=278.82 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383143501] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C1 type=station_turnaround target=-1 station_ord=2 planned_finish=292.11 actual_finish=292.11 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383149729] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C2 type=target_service target=29 station_ord=0 planned_finish=318.26 actual_finish=318.26 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.383156287] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C3 type=target_service target=13 station_ord=0 planned_finish=258.74 actual_finish=318.74 dev=+60.00 injected=60.0
+[charge_scheduler-1] [WARN] [1785316718.640869120] [charge_scheduler]: [重调度事件] policy=fixed #4 t=318.74min trigger=C3/target_service dev=+60.00 pool=6 committed=2 plan_v=4 solve_ms=257.7 changed_assign=0 changed_order=5
+[charge_scheduler-1] [INFO] [1785316718.640913310] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C1 type=target_service target=25 station_ord=0 planned_finish=329.85 actual_finish=329.85 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640924225] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C3 type=station_turnaround target=-1 station_ord=2 planned_finish=332.74 actual_finish=332.74 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640931195] [charge_scheduler]: [执行事件] loop=fixed plan_v=3 C2 type=target_service target=2 station_ord=0 planned_finish=362.87 actual_finish=362.87 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640962421] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C3 type=target_service target=10 station_ord=0 planned_finish=372.12 actual_finish=372.12 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640968611] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C2 type=station_turnaround target=-1 station_ord=3 planned_finish=374.80 actual_finish=374.80 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640974851] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C1 type=target_service target=17 station_ord=0 planned_finish=375.45 actual_finish=375.45 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640981631] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C1 type=station_turnaround target=-1 station_ord=3 planned_finish=388.25 actual_finish=388.25 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640987408] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C3 type=target_service target=6 station_ord=0 planned_finish=418.15 actual_finish=418.15 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640993265] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C2 type=target_service target=20 station_ord=0 planned_finish=422.74 actual_finish=422.74 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.640998809] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C2 type=final_return target=-1 station_ord=0 planned_finish=424.13 actual_finish=424.13 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.641004113] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C3 type=station_turnaround target=-1 station_ord=3 planned_finish=430.85 actual_finish=430.85 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.641009712] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C1 type=target_service target=23 station_ord=0 planned_finish=434.53 actual_finish=434.53 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.641015209] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C1 type=final_return target=-1 station_ord=0 planned_finish=437.60 actual_finish=437.60 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.641020558] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C3 type=target_service target=14 station_ord=0 planned_finish=477.65 actual_finish=477.65 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.641025904] [charge_scheduler]: [执行事件] loop=fixed plan_v=4 C3 type=final_return target=-1 station_ord=0 planned_finish=481.42 actual_finish=481.42 dev=+0.00 injected=0.0
+[charge_scheduler-1] [INFO] [1785316718.641039663] [charge_scheduler]: ★闭环实验结果 mode=open M=30 K=3 disturbance=combined delay=60.0 seed=10 N_late=18 T_overtime=1361.920 C_total=5785.502 makespan=468.703 served=30 energy_viol=6 reschedules=0 reschedule_ms=0.000 changed_assign=0 changed_order=0 applied_target=2 applied_station=2 initial_solve_ms=56341.260
+[charge_scheduler-1] [INFO] [1785316718.641049522] [charge_scheduler]: ★闭环实验结果 mode=fixed M=30 K=3 disturbance=combined delay=60.0 seed=10 N_late=14 T_overtime=1359.740 C_total=5997.021 makespan=481.419 served=30 energy_viol=0 reschedules=4 reschedule_ms=2639.893 changed_assign=0 changed_order=45 applied_target=2 applied_station=2 initial_solve_ms=56341.260
+[charge_scheduler-1] [INFO] [1785316718.641057223] [charge_scheduler]: ★闭环实验收益 policy=fixed M=30 K=3 disturbance=combined delay=60.0 seed=10 recovered_late=4 overtime_reduction=2.180 distance_delta=211.518 makespan_reduction=-12.716
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[INFO] [charge_scheduler-1]: sending signal 'SIGINT' to process[charge_scheduler-1]
+[charge_scheduler-1] [INFO] [1785316720.049175116] [rclcpp]: signal_handler(signum=2)
+[ERROR] [charge_scheduler-1]: process has died [pid 16968, exit code -2, cmd '/home/yy/controller/shared_dir/Comprehensive_Road_Testing/install/task_planner/lib/task_planner/charge_scheduler --ros-args -r __node:=charge_scheduler --params-file /home/yy/controller/shared_dir/Comprehensive_Road_Testing/install/task_planner/share/task_planner/config/charge_scheduler.param.yaml'].

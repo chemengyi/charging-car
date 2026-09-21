@@ -1,0 +1,107 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-08-03-11-20-27-566759-YYYY-17399
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [charge_scheduler-1]: process started with pid [17403]
+[charge_scheduler-1] [INFO] [1785756027.692055762] [charge_scheduler]: [目标顺序] objective_order=Tover,Nlate,Ctotal
+[charge_scheduler-1] [INFO] [1785756027.692709486] [charge_scheduler]: [Scheduler] 20辆车 | 电池800.0kWh(20%=160.0 80%=640.0) | 充电360kW效率97% | 行驶0.6kWh/km | 桩350kW
+[charge_scheduler-1] [INFO] [1785756027.692745644] [charge_scheduler]: [Scheduler] 站端周转: 换电 10 min(换后满电) | 单趟可用 640 kWh
+[charge_scheduler-1] [INFO] [1785756027.692759802] [charge_scheduler]:   车#0 [电动装载机282|light] 位置(3865.2,73751.0) 容量282kWh 剩余35% | α=6→6min/% τ=168min → 需130.8kWh(充21.2min)
+[charge_scheduler-1] [INFO] [1785756027.692779782] [charge_scheduler]:   车#1 [重型叉车|light] 位置(3785.0,73749.2) 容量200kWh 剩余20% | α=6→6min/% τ=96min → 需123.7kWh(充20.0min)
+[charge_scheduler-1] [INFO] [1785756027.692797095] [charge_scheduler]:   车#2 [电动装载机350|light] 位置(3811.5,73799.9) 容量350kWh 剩余50% | α=6→6min/% τ=288min → 需108.2kWh(充17.5min)
+[charge_scheduler-1] [INFO] [1785756027.692813444] [charge_scheduler]:   车#3 [重型叉车|light] 位置(3810.8,73773.1) 容量200kWh 剩余10% | α=6→6min/% τ=32min → 需144.3kWh(充23.3min)
+[charge_scheduler-1] [INFO] [1785756027.692829492] [charge_scheduler]:   车#4 [电动装载机282|heavy→降级] 位置(3905.0,73793.5) 容量282kWh 剩余60% | α=3→6min/% τ=212min → 需58.1kWh(充9.4min)
+[charge_scheduler-1] [INFO] [1785756027.692845968] [charge_scheduler]:   车#5 [电动装载机350|light] 位置(3894.3,73756.9) 容量350kWh 剩余25% | α=6→6min/% τ=128min → 需198.5kWh(充32.1min)
+[charge_scheduler-1] [INFO] [1785756027.692861478] [charge_scheduler]:   车#6 [电动装载机350|heavy→降级] 位置(3818.5,73716.2) 容量350kWh 剩余40% | α=4→6min/% τ=176min → 需144.3kWh(充23.3min)
+[charge_scheduler-1] [INFO] [1785756027.692876788] [charge_scheduler]:   车#7 [重型叉车|light] 位置(3733.2,73772.4) 容量200kWh 剩余15% | α=6→6min/% τ=64min → 需134.0kWh(充21.7min)
+[charge_scheduler-1] [INFO] [1785756027.692904595] [charge_scheduler]:   车#8 [电动装载机282|heavy→降级] 位置(3764.7,73699.0) 容量282kWh 剩余55% | α=3→6min/% τ=196min → 需72.7kWh(充11.8min)
+[charge_scheduler-1] [INFO] [1785756027.692921051] [charge_scheduler]:   车#9 [电动装载机282|heavy→降级] 位置(3878.4,73747.9) 容量282kWh 剩余30% | α=3→6min/% τ=116min → 需145.4kWh(充23.5min)
+[charge_scheduler-1] [INFO] [1785756027.692936263] [charge_scheduler]:   车#10 [电动装载机282|light] 位置(3740.3,73686.9) 容量282kWh 剩余45% | α=6→6min/% τ=224min → 需101.8kWh(充16.4min)
+[charge_scheduler-1] [INFO] [1785756027.692951546] [charge_scheduler]:   车#11 [电动装载机350|light] 位置(3895.4,73811.9) 容量350kWh 剩余18% | α=6→6min/% τ=83min → 需223.7kWh(充36.2min)
+[charge_scheduler-1] [INFO] [1785756027.692967208] [charge_scheduler]:   车#12 [重型叉车|heavy→降级] 位置(3876.0,73830.2) 容量200kWh 剩余62% | α=3→6min/% τ=230min → 需37.1kWh(充6.0min)
+[charge_scheduler-1] [INFO] [1785756027.692982576] [charge_scheduler]:   车#13 [电动装载机282|light] 位置(3765.9,73790.3) 容量282kWh 剩余28% | α=6→6min/% τ=129min → 需151.2kWh(充24.4min)
+[charge_scheduler-1] [INFO] [1785756027.693001758] [charge_scheduler]:   车#14 [电动装载机350|light] 位置(3637.1,73698.1) 容量350kWh 剩余52% | α=6→6min/% τ=301min → 需101.0kWh(充16.3min)
+[charge_scheduler-1] [INFO] [1785756027.693017761] [charge_scheduler]:   车#15 [重型叉车|light] 位置(3884.5,73833.1) 容量200kWh 剩余12% | α=6→6min/% τ=45min → 需140.2kWh(充22.7min)
+[charge_scheduler-1] [INFO] [1785756027.693033438] [charge_scheduler]:   车#16 [电动装载机282|light] 位置(3699.3,73765.4) 容量282kWh 剩余38% | α=6→6min/% τ=185min → 需122.1kWh(充19.7min)
+[charge_scheduler-1] [INFO] [1785756027.693048681] [charge_scheduler]:   车#17 [电动装载机350|light] 位置(3800.8,73717.7) 容量350kWh 剩余58% | α=6→6min/% τ=339min → 需79.4kWh(充12.8min)
+[charge_scheduler-1] [INFO] [1785756027.693063686] [charge_scheduler]:   车#18 [重型叉车|heavy→降级] 位置(3825.0,73792.7) 容量200kWh 剩余22% | α=3→6min/% τ=102min → 需119.6kWh(充19.3min)
+[charge_scheduler-1] [INFO] [1785756027.693079332] [charge_scheduler]:   车#19 [电动装载机282|light] 位置(3784.3,73759.0) 容量282kWh 剩余48% | α=6→6min/% τ=241min → 需93.0kWh(充15.0min)
+[charge_scheduler-1] [INFO] [1785756027.703176879] [charge_scheduler]: [Scheduler] 闭环接口: threshold=10.0min | event_sim=off | policy=all | structured_feedback=optional (/task_planner/execution_event)
+[charge_scheduler-1] [INFO] [1785756027.703225309] [charge_scheduler]: [Scheduler] 已启动, 等待地图...
+[charge_scheduler-1] [INFO] [1785756027.703233773] [charge_scheduler]: [Scheduler] 充电车1接口: sequence/served/arrived_target/arrived_station/return_goal/task_complete 后缀=_1
+[charge_scheduler-1] [INFO] [1785756027.703240691] [charge_scheduler]: [Scheduler] 充电车2接口: sequence/served/arrived_target/arrived_station/return_goal/task_complete 后缀=_2
+[charge_scheduler-1] [INFO] [1785756027.804563345] [charge_scheduler]: [Scheduler] RoutingGraph 就绪
+[charge_scheduler-1] [INFO] [1785756027.805008578] [charge_scheduler]: [Scheduler] 提取到 0 条虚线捷径
+[charge_scheduler-1] [INFO] [1785756027.839332188] [charge_scheduler]: [Scheduler] 下层兼容增强图: 190 节点, 0 条虚线掉头边
+[charge_scheduler-1] [INFO] [1785756027.839419173] [charge_scheduler]:   [Abstract参数] opposite_angle=25.0deg normal_angle=30.0deg search_radius=15.00m lateral=[1.00,12.00]m longitudinal<=3.00m parallel_span=4.00m boundary_gap<=0.500m
+[charge_scheduler-1] [INFO] [1785756027.852703083] [charge_scheduler]:   [Abstract] 站 → lanelet(9262) method=station_single_lane | 单向驿站保留1个主投影
+[charge_scheduler-1] [INFO] [1785756027.864792418] [charge_scheduler]:   [Abstract] 车#0 → lanelet(134, 133) method=geometric_boundary | lateral=2.987m longitudinal=0.007m distance=2.987m dot=-1.0000 normal=1.0000 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.876738071] [charge_scheduler]:   [Abstract] 车#1 → lanelet(125, 124) method=shared_boundary_id | lateral=2.974m longitudinal=0.019m distance=2.974m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.888550716] [charge_scheduler]:   [Abstract] 车#2 → lanelet(130, 129) method=shared_boundary_id | lateral=2.976m longitudinal=0.020m distance=2.976m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.901686215] [charge_scheduler]:   [Abstract] 车#3 → lanelet(124, 125) method=shared_boundary_id | lateral=2.969m longitudinal=0.019m distance=2.969m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.916987444] [charge_scheduler]:   [Abstract] 车#4 → lanelet(135, 136) method=geometric_boundary | lateral=3.099m longitudinal=0.049m distance=3.100m dot=-1.0000 normal=0.9999 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.929024206] [charge_scheduler]:   [Abstract] 车#5 → lanelet(133, 134) method=geometric_boundary | lateral=2.983m longitudinal=0.005m distance=2.983m dot=-1.0000 normal=1.0000 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.944210046] [charge_scheduler]:   [Abstract] 车#6 → lanelet(115, 114) method=shared_boundary_id | lateral=2.989m longitudinal=0.010m distance=2.989m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.962215664] [charge_scheduler]:   [Abstract] 车#7 → lanelet(118, 119) method=shared_boundary_id | lateral=2.926m longitudinal=0.024m distance=2.926m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.974483516] [charge_scheduler]:   [Abstract] 车#8 → lanelet(9285, 9232) method=geometric_boundary | lateral=2.989m longitudinal=0.203m distance=2.996m dot=-1.0000 normal=0.9977 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756027.990645657] [charge_scheduler]:   [Abstract] 车#9 → lanelet(133, 134) method=geometric_boundary | lateral=2.987m longitudinal=0.006m distance=2.987m dot=-1.0000 normal=1.0000 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.001832007] [charge_scheduler]:   [Abstract] 车#10 → lanelet(9286, 9232) method=geometric_boundary | lateral=2.990m longitudinal=0.131m distance=2.993m dot=-1.0000 normal=0.9990 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.021137923] [charge_scheduler]:   [Abstract] 车#11 → lanelet(135, 136) method=geometric_boundary | lateral=3.100m longitudinal=0.047m distance=3.100m dot=-1.0000 normal=0.9999 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.041887174] [charge_scheduler]:   [Abstract] 车#12 → lanelet(136, 135) method=geometric_boundary | lateral=3.099m longitudinal=0.045m distance=3.099m dot=-1.0000 normal=0.9999 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.055601973] [charge_scheduler]:   [Abstract] 车#13 → lanelet(120, 121) method=shared_boundary_id | lateral=2.930m longitudinal=0.023m distance=2.930m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.067192636] [charge_scheduler]:   [Abstract] 车#14 → lanelet(146, 147) method=geometric_boundary | lateral=2.983m longitudinal=0.224m distance=2.991m dot=-1.0000 normal=0.9972 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.078457629] [charge_scheduler]:   [Abstract] 车#15 → lanelet(135, 136) method=geometric_boundary | lateral=3.099m longitudinal=0.045m distance=3.099m dot=-1.0000 normal=0.9999 boundary_gap=0.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.090010095] [charge_scheduler]:   [Abstract] 车#16 → lanelet(119, 118) method=shared_boundary_id | lateral=2.917m longitudinal=0.007m distance=2.917m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.102076022] [charge_scheduler]:   [Abstract] 车#17 → lanelet(114, 115) method=shared_boundary_id | lateral=2.989m longitudinal=0.003m distance=2.989m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.113016570] [charge_scheduler]:   [Abstract] 车#18 → lanelet(129, 130) method=shared_boundary_id | lateral=2.968m longitudinal=0.003m distance=2.968m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.124122239] [charge_scheduler]:   [Abstract] 车#19 → lanelet(124, 125) method=shared_boundary_id | lateral=2.973m longitudinal=0.021m distance=2.973m dot=-1.0000 normal=1.0000 boundary_gap=-1.0000m parallel_samples=3
+[charge_scheduler-1] [INFO] [1785756028.124157912] [charge_scheduler]:   [Abstract投影汇总] shared_boundary_id=10 geometric_boundary=10 normal_direction_fallback=0 station_single_lane=1 not_found=0
+[charge_scheduler-1] [INFO] [1785756037.897480930] [charge_scheduler]: [Scheduler] 距离矩阵完成 21x21, 10058.1 ms | 模式=abstract | 真实不可达=0 抽象不可达=0 | 缺少对向投影节点=0 | 对向识别(ID/几何/法向)=10/10/0 | 单向驿站投影=1
+[charge_scheduler-1] [INFO] [1785756037.897533103] [charge_scheduler]:   ✓ 比值自检：420 个 OD 满足 机动/直线≥1 | 均值=3.73 最大=54.86 (车#15→车#12)
+[charge_scheduler-1] [INFO] [1785756037.897553696] [charge_scheduler]:   [Abstract诊断] 有限OD=420 | ABS<MAN=420 | ABS/MAN均值=0.598 最大=0.989 | 最大非对称差=97.333m
+[charge_scheduler-1] [INFO] [1785756037.897564424] [charge_scheduler]: [Scheduler] 地图就绪, 190 条 lanelet（与下层一致）
+[charge_scheduler-1] [INFO] [1785756037.897609398] [charge_scheduler]: ======== 开始VRPTW调度 20 辆车 ========
+[charge_scheduler-1] [INFO] [1785756037.897614427] [charge_scheduler]:   规模20>8 → 启发式(alns)
+[charge_scheduler-1] [INFO] [1785756049.414085644] [charge_scheduler]: [ALNS] objective_order=Tover,Nlate,Ctotal seed=10 iters=15000 | N_late=7(成功率65.0%) T_overtime=99.7min C_total=3624.6m | 趟数=8 makespan=387.3min
+[charge_scheduler-1] [INFO] [1785756049.414134827] [charge_scheduler]:   求解耗时 11516.5 ms
+[charge_scheduler-1] [INFO] [1785756049.414142352] [charge_scheduler]: ════════ 调度结果 ════════
+[charge_scheduler-1] [INFO] [1785756049.414146914] [charge_scheduler]:   ★目标(字典序): objective_order=Tover,Nlate,Ctotal | N_late=7 辆 (按时成功率 13/20 = 65.0%)  T_overtime=99.7min  C_total=3624.6m
+[charge_scheduler-1] [INFO] [1785756049.414152852] [charge_scheduler]:   附: 趟数=8 | makespan=387.3min | 能量可行=是
+[charge_scheduler-1] [INFO] [1785756049.414163824] [charge_scheduler]:   [充电车1] 趟1: 站 → 车#4(到3.8/限212.0✓) → 车#12(到14.4/限230.4✓) → 车#15(到21.9/限44.8✓) → 车#11(到46.1/限83.2✓) → 站
+[charge_scheduler-1] [INFO] [1785756049.414170023] [charge_scheduler]:   [充电车2] 趟2: 站 → 车#9(到2.9/限116.0✓) → 车#3(到28.1/限32.0✓) → 车#7(到54.5/限64.0✓) → 车#1(到80.2/限96.0✓) → 站
+[charge_scheduler-1] [INFO] [1785756049.414175487] [charge_scheduler]:   [充电车1] 趟3: 站 → 车#18(到103.0/限102.4✗超时) → 车#5(到129.5/限128.0✗超时) → 车#16(到177.0/限184.8✓) → 站
+[charge_scheduler-1] [INFO] [1785756049.414208863] [charge_scheduler]:   [充电车2] 趟4: 站 → 车#13(到117.5/限128.8✓) → 车#0(到154.2/限168.0✓) → 车#8(到189.9/限196.0✓) → 站
+[charge_scheduler-1] [INFO] [1785756049.414213423] [charge_scheduler]:   [充电车1] 趟5: 站 → 车#10(到224.9/限224.0✗超时) → 车#19(到261.8/限240.8✗超时) → 站
+[charge_scheduler-1] [INFO] [1785756049.414218180] [charge_scheduler]:   [充电车2] 趟6: 站 → 车#6(到238.5/限176.0✗超时) → 车#2(到283.8/限288.0✓) → 站
+[charge_scheduler-1] [INFO] [1785756049.414222534] [charge_scheduler]:   [充电车1] 趟7: 站 → 车#14(到311.6/限300.8✗超时) → 站
+[charge_scheduler-1] [INFO] [1785756049.414226625] [charge_scheduler]:   [充电车2] 趟8: 站 → 车#17(到341.5/限339.2✗超时) → 站
+[charge_scheduler-1] [INFO] [1785756049.414230013] [charge_scheduler]: ════════════════════════
+[charge_scheduler-1] [WARN] [1785756049.414255723] [charge_scheduler]: ════ 耦合消融重放：抽象路网定序 → 同K真实机动执行 ════
+[charge_scheduler-1] [WARN] [1785756049.414260312] [charge_scheduler]:   【抽象路网仅生成顺序；K=2、能量、换电、分趟和并行时间线均按真实机动距离重新解码】
+[charge_scheduler-1] [WARN] [1785756049.414264286] [charge_scheduler]:   N_late=13 (按时率 7/20 = 35.0%)   T_overtime=368.3min   C_total=7029.4m   makespan=420.6min   能量违规=0   objective_order=Tover,Nlate,Ctotal
+[charge_scheduler-1] [WARN] [1785756049.414270549] [charge_scheduler]:   逐辆到达时刻（真实机动距离、同K解码）：
+[charge_scheduler-1] [WARN] [1785756049.414274077] [charge_scheduler]:      车#0 到达 172.9 / 限 168.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414278707] [charge_scheduler]:      车#1 到达 92.0 / 限 96.0 ✓
+[charge_scheduler-1] [WARN] [1785756049.414283264] [charge_scheduler]:      车#2 到达 323.3 / 限 288.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414288457] [charge_scheduler]:      车#3 到达 33.3 / 限 32.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414292501] [charge_scheduler]:      车#4 到达 4.6 / 限 212.0 ✓
+[charge_scheduler-1] [WARN] [1785756049.414296592] [charge_scheduler]:      车#5 到达 147.7 / 限 128.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414300669] [charge_scheduler]:      车#6 到达 265.0 / 限 176.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414304574] [charge_scheduler]:      车#7 到达 61.8 / 限 64.0 ✓
+[charge_scheduler-1] [WARN] [1785756049.414308457] [charge_scheduler]:      车#8 到达 226.5 / 限 196.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414312940] [charge_scheduler]:      车#9 到达 5.5 / 限 116.0 ✓
+[charge_scheduler-1] [WARN] [1785756049.414316759] [charge_scheduler]:      车#10 到达 245.7 / 限 224.0 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414320713] [charge_scheduler]:      车#11 到达 57.9 / 限 83.2 ✓
+[charge_scheduler-1] [WARN] [1785756049.414324637] [charge_scheduler]:      车#12 到达 21.3 / 限 230.4 ✓
+[charge_scheduler-1] [WARN] [1785756049.414328666] [charge_scheduler]:      车#13 到达 134.8 / 限 128.8 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414332753] [charge_scheduler]:      车#14 到达 335.7 / 限 300.8 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414336682] [charge_scheduler]:      车#15 到达 33.1 / 限 44.8 ✓
+[charge_scheduler-1] [WARN] [1785756049.414340614] [charge_scheduler]:      车#16 到达 207.2 / 限 184.8 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414345326] [charge_scheduler]:      车#17 到达 373.3 / 限 339.2 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414349310] [charge_scheduler]:      车#18 到达 116.9 / 限 102.4 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414353298] [charge_scheduler]:      车#19 到达 294.7 / 限 240.8 ✗超时
+[charge_scheduler-1] [WARN] [1785756049.414359493] [charge_scheduler]:   抽象路网生成的固定访问顺序 = #4 #9 #12 #15 #3 #11 #7 #1 #18 #13 #5 #0 #16 #8 #10 #6 #19 #2 #14 #17 
+[charge_scheduler-1] [WARN] [1785756049.414363077] [charge_scheduler]: ════════════════════════════════════════
+[charge_scheduler-1] [INFO] [1785756049.414370247] [charge_scheduler]:   ⏱ 任务计时开始 (t=0)
+[charge_scheduler-1] [INFO] [1785756049.414600677] [charge_scheduler]: [多车派发] 充电车1分配4趟、10辆目标车，开始独立逐任务派发
+[charge_scheduler-1] [INFO] [1785756049.414652031] [charge_scheduler]:   → [充电车1] 第1/4趟 第1/4辆: 车#4 (3904.99,73793.46) | topic后缀=_1 | 承诺完成=13.73min
+[charge_scheduler-1] [INFO] [1785756049.414868105] [charge_scheduler]: [多车派发] 充电车2分配4趟、10辆目标车，开始独立逐任务派发
+[charge_scheduler-1] [INFO] [1785756049.414884640] [charge_scheduler]:   → [充电车2] 第1/4趟 第1/4辆: 车#9 (3878.37,73747.90) | topic后缀=_2 | 承诺完成=26.83min

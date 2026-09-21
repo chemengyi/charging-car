@@ -1,0 +1,41 @@
+[RUN_META] map=map1 experiment=E2 objective=OBJ-N method=ECD internal_mode=maneuver scale=M10 K=1 seed=3 iters=8000
+[RUN_META] case=./cases/charge_scheduler_M10_K1.param.yaml
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-08-08-12-28-52-395731-YYYY-1172
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [charge_scheduler-1]: process started with pid [1175]
+[charge_scheduler-1] [INFO] [1786192132.529551543] [charge_scheduler]: [目标顺序] objective_order=Nlate,Tover,Ctotal
+[charge_scheduler-1] [INFO] [1786192132.530366242] [charge_scheduler]: [Scheduler] 10辆车 | 电池800.0kWh(20%=160.0 80%=640.0) | 充电360kW效率97% | 行驶0.6kWh/km | 桩350kW
+[charge_scheduler-1] [INFO] [1786192132.530413566] [charge_scheduler]: [Scheduler] 站端周转: 换电 10 min(换后满电) | 单趟可用 640 kWh
+[charge_scheduler-1] [INFO] [1786192132.530431988] [charge_scheduler]:   车#0 [电动装载机282|light] 位置(-47.3,-2.6) 容量282kWh 剩余35% | α=6→6min/% τ=168min → 需130.8kWh(充21.2min)
+[charge_scheduler-1] [INFO] [1786192132.530457605] [charge_scheduler]:   车#1 [重型叉车|light] 位置(-44.0,-64.1) 容量200kWh 剩余20% | α=6→6min/% τ=96min → 需123.7kWh(充20.0min)
+[charge_scheduler-1] [INFO] [1786192132.530479736] [charge_scheduler]:   车#2 [电动装载机350|light] 位置(-51.1,-38.8) 容量350kWh 剩余50% | α=6→6min/% τ=288min → 需108.2kWh(充17.5min)
+[charge_scheduler-1] [INFO] [1786192132.530500430] [charge_scheduler]:   车#3 [重型叉车|light] 位置(-71.0,-19.0) 容量200kWh 剩余10% | α=6→6min/% τ=32min → 需144.3kWh(充23.3min)
+[charge_scheduler-1] [INFO] [1786192132.530524996] [charge_scheduler]:   车#4 [电动装载机282|heavy→降级] 位置(-93.3,6.6) 容量282kWh 剩余60% | α=3→6min/% τ=212min → 需58.1kWh(充9.4min)
+[charge_scheduler-1] [INFO] [1786192132.530545281] [charge_scheduler]:   车#5 [电动装载机350|light] 位置(-104.4,47.7) 容量350kWh 剩余25% | α=6→6min/% τ=128min → 需198.5kWh(充32.1min)
+[charge_scheduler-1] [INFO] [1786192132.530564910] [charge_scheduler]:   车#6 [电动装载机350|heavy→降级] 位置(-37.0,-75.1) 容量350kWh 剩余40% | α=4→6min/% τ=176min → 需144.3kWh(充23.3min)
+[charge_scheduler-1] [INFO] [1786192132.530583439] [charge_scheduler]:   车#7 [重型叉车|light] 位置(-88.8,-37.1) 容量200kWh 剩余15% | α=6→6min/% τ=64min → 需134.0kWh(充21.7min)
+[charge_scheduler-1] [INFO] [1786192132.530601476] [charge_scheduler]:   车#8 [电动装载机282|heavy→降级] 位置(-70.9,27.7) 容量282kWh 剩余55% | α=3→6min/% τ=196min → 需72.7kWh(充11.8min)
+[charge_scheduler-1] [INFO] [1786192132.530620083] [charge_scheduler]:   车#9 [电动装载机282|heavy→降级] 位置(-35.4,-47.4) 容量282kWh 剩余30% | α=3→6min/% τ=116min → 需145.4kWh(充23.5min)
+[charge_scheduler-1] [INFO] [1786192132.540002957] [charge_scheduler]: [Scheduler] 闭环接口: threshold=2.0min | event_sim=off | policy=global | structured_feedback=optional (/task_planner/execution_event)
+[charge_scheduler-1] [INFO] [1786192132.540044756] [charge_scheduler]: [Scheduler] 已启动, 等待地图...
+[charge_scheduler-1] [INFO] [1786192132.540059313] [charge_scheduler]: [Scheduler] 充电车1接口: sequence/served/arrived_target/arrived_station/return_goal/task_complete 后缀=_1
+[charge_scheduler-1] [INFO] [1786192132.602739305] [charge_scheduler]: [Scheduler] RoutingGraph 就绪
+[charge_scheduler-1] [INFO] [1786192132.602984930] [charge_scheduler]: [Scheduler] 提取到 6 条虚线捷径
+[charge_scheduler-1] [INFO] [1786192132.613645614] [charge_scheduler]: [Scheduler] 下层兼容增强图: 166 节点, 6 条虚线掉头边
+[charge_scheduler-1] [INFO] [1786192133.367510553] [charge_scheduler]: [Scheduler] 距离矩阵完成 11x11, 753.8 ms | 模式=maneuver | ECD不可达=0 DSP原始不可达=0 DSP虚线兜底=0 DSP最终不可达=0 抽象不可达=0 | 缺少对向投影节点=0 | 对向识别(ID/几何/法向)=0/0/0 | 单向驿站投影=0
+[charge_scheduler-1] [INFO] [1786192133.367551990] [charge_scheduler]:   ✓ 比值自检：110 个 OD 满足 机动/直线≥1 | 均值=2.33 最大=6.58 (车#4→车#3)
+[charge_scheduler-1] [INFO] [1786192133.367562727] [charge_scheduler]: [Scheduler] 地图就绪, 166 条 lanelet（与下层一致）
+[charge_scheduler-1] [INFO] [1786192133.367606007] [charge_scheduler]: ======== 开始VRPTW调度 10 辆车 ========
+[charge_scheduler-1] [INFO] [1786192133.367611263] [charge_scheduler]:   规模10>8 → 启发式(alns)
+[charge_scheduler-1] [INFO] [1786192134.758870098] [charge_scheduler]: [ALNS] objective_order=Nlate,Tover,Ctotal seed=3 iters=8000 | N_late=2(成功率80.0%) T_overtime=221.4min C_total=1652.8m | 趟数=4 makespan=348.4min
+[charge_scheduler-1] [INFO] [1786192134.758926503] [charge_scheduler]:   求解耗时 1391.3 ms
+[charge_scheduler-1] [INFO] [1786192134.758958651] [charge_scheduler]: ════════ 调度结果 ════════
+[charge_scheduler-1] [INFO] [1786192134.758963382] [charge_scheduler]:   ★目标(字典序): objective_order=Nlate,Tover,Ctotal | N_late=2 辆 (按时成功率 8/10 = 80.0%)  T_overtime=221.4min  C_total=1652.8m
+[charge_scheduler-1] [INFO] [1786192134.759004250] [charge_scheduler]:   附: 趟数=4 | makespan=348.4min | 能量可行=是
+[charge_scheduler-1] [INFO] [1786192134.759016150] [charge_scheduler]:   趟1: 站 → 车#4(到1.4/限212.0✓) → 车#8(到13.7/限196.0✓) → 车#3(到28.2/限32.0✓) → 车#7(到53.7/限64.0✓) → 车#1(到79.3/限96.0✓) → 站
+[charge_scheduler-1] [INFO] [1786192134.759022586] [charge_scheduler]:   趟2: 站 → 车#5(到119.0/限128.0✓) → 车#0(到163.6/限168.0✓) → 站
+[charge_scheduler-1] [INFO] [1786192134.759028224] [charge_scheduler]:   趟3: 站 → 车#9(到211.5/限116.0✗超时) → 车#2(到247.2/限288.0✓) → 站
+[charge_scheduler-1] [INFO] [1786192134.759033446] [charge_scheduler]:   趟4: 站 → 车#6(到301.9/限176.0✗超时) → 站
+[charge_scheduler-1] [INFO] [1786192134.759039099] [charge_scheduler]: ════════════════════════
+[charge_scheduler-1] [INFO] [1786192134.759045236] [charge_scheduler]:   ⏱ 任务计时开始 (t=0)
+[charge_scheduler-1] [INFO] [1786192134.759251464] [charge_scheduler]:   → 趟1 第1辆: 车#4 [电动装载机282] (-93.30,6.61) 容量282.00kWh 剩余60% | 承诺完成=11.04min plan_v=0
