@@ -1,0 +1,4 @@
+/home/yy/备份/eco_car/build/CMakeFiles/ChargingController.dir
+/home/yy/备份/eco_car/build/CMakeFiles/edit_cache.dir
+/home/yy/备份/eco_car/build/CMakeFiles/rebuild_cache.dir
+/home/yy/备份/eco_car/build/CMakeFiles/ChargingController_autogen.dir
